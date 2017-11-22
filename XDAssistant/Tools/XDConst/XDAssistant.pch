@@ -1,0 +1,30 @@
+//
+//  XDAssistant.pch
+//  XDAssistant
+//
+//  Created by Yanice on 2017/11/21.
+//  Copyright © 2017年 Yanice. All rights reserved.
+//
+
+#ifndef XDAssistant_h
+#define XDAssistant_h
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#import "XD_URLConst.h"
+#import "AFNetWorking.h"
+#import "Masonry.h"
+
+#import "UIColor+XD_HexToColor.h"
+#import "UIButton+XD_ButtonAlignStyle.h"
+#import "XD_NavgationController+XD_NavStyle.h"
+#import "UIViewController+XD_GetNavgationController.h"
+
+
+#define XD_BASE_VIEW_COLOR                      [UIColor xd_hexToColor:0xf0f6f9]
+
+#define XD_SCREEN_WIDTH                         [[UIScreen mainScreen] bounds].size.width
+#define XD_SCREEN_HEIGHT                        [[UIScreen mainScreen] bounds].size.height
+
+#endif /* XDAssistant_h */
